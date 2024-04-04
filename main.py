@@ -10,7 +10,7 @@ def count_words_and_sentences(file_path):
 
         return word_count, sentence_count
 
-file_path = "text.txt"
+file_path = "text.txt"  # Замініть це на шлях до вашого файлу
 word_count, sentence_count = count_words_and_sentences(file_path)
 print("Кількість слів:", word_count)
 print("Кількість речень:", sentence_count)
